@@ -2,10 +2,11 @@
 html,body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend,span{margin:0; padding:0;}
 ul,li,ol{list-style:none;}
 img,fieldset{border:0; }
-img{display:block;}
+img{display:block;border:0;}
 a{text-decoration:none; color:#333;}
 h1,h2,h3,h4,h5,h6{font-weight:100;}
 html,body{ font-family:"微软雅黑";font-size: 12px;}
+body{background:#f5f5f5;}
 input,a{outline:none;}
 header{
     background:#f2f2f2;
@@ -71,15 +72,17 @@ header{
     background:#ff356d;
     img{
         display: block;
-        margin-left:40px;
+        margin-left:33px;
         margin-right:30px;
+        background-size: cover;
     }
 }
 //<!--------------------searchbarwrap---------------------->
 #searchbarwrap{
     //width:100%;
-    margin-left:40px;
-    margin-right:30px;
+    padding-right:30px;
+    padding-left: 33px;
+    background:#fff;
     .searchbar{
         width:100%;
         height:90px;
@@ -90,10 +93,12 @@ header{
             float:left;
         }
         .freeimg{
-            float:right;
+            //float:right;
+            //margin-right:30px;
             img{
                 display: block;
                 height:90px;
+                
             }
             
         }
@@ -219,23 +224,52 @@ header{
     width:100%;
     height:440px;
     border-top:solid #ff0077 1px;
+    margin-bottom: 10px;
     display: flex;
     .classify{
         float: left;
         width:256px;
         height:100%;
-        background:#fee0f0;
-        margin-left: 40px;
+       background:rgb(254,224,240);
+        margin-left: 33px;
     }
     .banner{
-        float: left;
+        position: relative;
+        float: left;    
         width:778px;
         height:100%;
         overflow: hidden;
-        ul{
+        .bannermove{
+            position: relative;
             height:100%;
             li{
-                
+                //position: absolute;
+            }
+        }
+        .bannerRounds{            
+            position: absolute;
+            bottom:15px;
+            width:100%;
+            height:26px;
+            display: flex;
+            justify-content: center;
+            li{
+                position: relative;
+                float: left;
+                width:20px;
+                height:20px;
+                border-radius: 50%;
+                background:#e7e7e7;
+                margin-left: 5px;
+                span{
+                    display: block;
+                    position: absolute;
+                    top:0;
+                    left:8px;
+                    width:3px;
+                    height:10px;
+                    background:#fff;
+                }
             }
         }
     }
@@ -243,19 +277,162 @@ header{
         float: left;
         width:166px;
         height:420px;
+        
         div{
-            background:#fee0f0;
+            background:rgb(254,224,240);
             width:100%;
             height:205px;
             margin-top:10px;
-        }
+          }
         .welconeGirl{
-            color:#fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: top;
+            align-items: center;
+            a{display: block;}
+           .icon-ren{
+               width:72px;
+               height:72px;
+               border-radius: 50%;
+               background:#ff94c6;
+               font-size: 35px;
+               color:#ffcae3;
+               text-align: center;
+               line-height: 72px;
+               margin-top:10px;
+           }
+           .girl{
+               padding:8px 0;
+               .come{
+                   font-weight: bolder;
+               }
+           }
+           a:last-child{
+               border: solid 1px #ff5777;
+               width:74px;
+               height:26px;
+               color: #ff5777;
+               text-align: center;
+               line-height: 26px;
+           }
         }
         .goodLuck{
-            
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           a{cursor: pointer;display: block;}
+           a:nth-of-type(1){
+               font-weight: bolder;
+               height:42px;
+               font-size: 16px;
+               padding-top:20px;
+           }
+           p{
+               height:19px;
+               margin:5px 0;
+               font-size: 14px;
+           }
+           a:nth-of-type(2){
+               img{
+                   width:130px;
+                   height:130px;
+               }
+           }
         }
     }
 }
 
-
+//<!----------------meeting,metbig------------>
+#meeting{
+    width:1220px;
+    overflow: hidden;
+    margin:0 10px 0 33px;
+       img{
+           width:190px;
+           height:140px;
+           margin:0 12px 10px 0;
+           float: left;
+       }
+}
+#metbig{
+     width:1220px;
+     overflow: hidden;
+    margin:0 10px 30px 33px;
+    img{
+           width:232px;
+           height:162px;
+           margin:0 10px 10px 0;
+           float: left;
+    }
+}
+//<!---------------outBox-------------------------->
+#outBox{margin:0 30px 0 33px;width:1200px;}
+//<!-------------------same - title----------------->
+#title{
+    width:100%;
+    height:25px;
+    line-height: 22px;
+    span{
+            display: block;
+            float: left;
+        }
+    span:nth-of-type(1){
+        width:7px;
+        height:22px;
+        background:red;
+        margin-right:10px;
+    }
+    span:nth-of-type(2){
+        font-size: 20px;
+        font-weight: bolder;
+    }
+}
+//<!---------------------look------------------->
+#look{
+    height:364px;
+    overflow: hidden;
+    .showRotate{
+        float: left;
+        position: relative;
+        top:10px;
+        width:950px;
+        height:364px;
+        a,span{display: block;}
+        a{
+            position: relative;
+            float: left;
+            width:182px;
+            height:364px;
+            margin-right:10px;
+            border-radius: 10px;
+            span{
+                width:120px;
+                height:38px;
+                border-radius: 50px;
+                background:rgba(34,34,33,.7);
+                position: absolute;
+                bottom: 25px;
+                left: 50%;
+                margin-left: -60px;
+                color:#fff;
+                font-size: 16px;
+                text-align: center;
+                line-height: 38px;
+            }
+            img{
+                border-radius: 10px;
+                width:100%;
+                height:100%;
+            }
+        }
+        .showLast{
+                margin-right: 0;
+        }
+    }
+    .showMore{
+        width:240px;
+        height:362px;
+        float: left;border:solid 1px red;
+        margin-left: 8px;
+    }
+}
