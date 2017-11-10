@@ -30,6 +30,9 @@ body {
 input, a {
   outline: none; }
 
+em, i {
+  font-style: normal; }
+
 header {
   background: #f2f2f2;
   width: 100%;
@@ -323,6 +326,9 @@ header {
   width: 1200px; }
 
 #title {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 10px;
   width: 100%;
   height: 25px;
   line-height: 22px; }
@@ -337,6 +343,12 @@ header {
   #title span:nth-of-type(2) {
     font-size: 20px;
     font-weight: bolder; }
+  #title a {
+    position: absolute;
+    right: 0; }
+    #title a em {
+      font-size: 14px;
+      margin-left: 3px; }
 
 #look {
   height: 364px;
@@ -344,7 +356,6 @@ header {
   #look .showRotate {
     float: left;
     position: relative;
-    top: 10px;
     width: 950px;
     height: 364px; }
     #look .showRotate a, #look .showRotate span {
@@ -377,9 +388,426 @@ header {
       margin-right: 0; }
   #look .showMore {
     width: 240px;
-    height: 362px;
+    height: 100%;
     float: left;
-    border: solid 1px red;
     margin-left: 8px; }
+    #look .showMore .odd {
+      margin-right: 12px; }
+    #look .showMore a {
+      position: relative;
+      margin-bottom: 10px;
+      display: block;
+      border-radius: 5px;
+      width: 114px;
+      height: 114px;
+      float: left;
+      overflow: hidden; }
+      #look .showMore a img {
+        width: 100%; }
+        #look .showMore a img:hover {
+          opacity: 0.8;
+          filter: alpha(opacity=80); }
+      #look .showMore a span {
+        display: block;
+        width: 114px;
+        height: 40px;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        margin-left: -60px;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        line-height: 40px; }
+
+#imgluobo {
+  display: flex; }
+  #imgluobo .imglt {
+    width: 200px;
+    height: 273px; }
+    #imgluobo .imglt img {
+      width: 100%;
+      height: 100%; }
+  #imgluobo .imgrg {
+    position: relative;
+    width: 1000px;
+    height: 273px;
+    background: #fff;
+    padding-left: 15px;
+    overflow: hidden; }
+    #imgluobo .imgrg .iconfont {
+      position: absolute;
+      width: 20px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      background: rgba(34, 34, 33, 0.7);
+      color: #fff;
+      font-size: 20px;
+      z-index: 1;
+      cursor: pointer; }
+    #imgluobo .imgrg .icon-arrow-left1 {
+      left: 15px;
+      top: 50%;
+      margin-top: -25px; }
+    #imgluobo .imgrg .icon-arrow-left {
+      right: 0;
+      top: 50%;
+      margin-top: -25px; }
+    #imgluobo .imgrg .active {
+      display: block; }
+    #imgluobo .imgrg .divnum {
+      position: absolute;
+      margin-top: 10px;
+      display: none; }
+      #imgluobo .imgrg .divnum div {
+        width: 197px;
+        height: 271px;
+        float: left; }
+        #imgluobo .imgrg .divnum div a {
+          display: block; }
+        #imgluobo .imgrg .divnum div .aone {
+          width: 180px;
+          height: 180px;
+          overflow: hidden; }
+          #imgluobo .imgrg .divnum div .aone img {
+            border: none;
+            display: block;
+            width: 100%;
+            height: 100%;
+            vertical-align: middle; }
+        #imgluobo .imgrg .divnum div .atwo {
+          margin-top: 17px;
+          margin-bottom: 6px;
+          color: #666;
+          font-size: 14px;
+          line-height: 20px;
+          height: 20px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          display: block; }
+        #imgluobo .imgrg .divnum div p {
+          width: 180px;
+          height: 38px;
+          line-height: 38px; }
+          #imgluobo .imgrg .divnum div p span:nth-child(1) {
+            display: inline-block;
+            color: #FF4B6D;
+            font-style: normal;
+            font-size: 20px;
+            font-family: Arial; }
+          #imgluobo .imgrg .divnum div p span:nth-child(2) {
+            display: inline-block;
+            font-size: 14px;
+            color: #999;
+            margin-left: 10px;
+            font-family: Arial;
+            text-decoration: line-through; }
+
+#choiseTitle {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 25px;
+  line-height: 22px;
+  font-weight: normal; }
+  #choiseTitle span {
+    display: block;
+    float: left; }
+  #choiseTitle span:nth-of-type(1) {
+    width: 7px;
+    height: 22px;
+    background: #9f86cf;
+    margin-right: 10px; }
+  #choiseTitle span:nth-of-type(2) {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 30px; }
+  #choiseTitle .see {
+    position: absolute;
+    right: 0; }
+    #choiseTitle .see em {
+      font-size: 14px;
+      margin-left: 3px; }
+  #choiseTitle p {
+    width: 811px;
+    float: left;
+    height: 100%;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666; }
+    #choiseTitle p a {
+      font-size: 14px;
+      padding: 0 14px;
+      color: #666; }
+
+.choiselt {
+  float: left;
+  width: 240px;
+  height: 360px;
+  background: #ecdaf5;
+  position: relative; }
+  .choiselt ul {
+    width: 210px;
+    height: 70px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 5;
+    overflow: hidden; }
+    .choiselt ul li {
+      float: left; }
+      .choiselt ul li a {
+        display: block;
+        width: 57px;
+        height: 27px;
+        margin: 0 10px 10px 0;
+        color: #fff;
+        text-align: center;
+        line-height: 28px;
+        font-size: 12px;
+        background-color: #555;
+        background-color: rgba(0, 0, 0, 0.2);
+        border: 1px solid #000;
+        border: solid 1px rgba(0, 0, 0, 0.15); }
+  .choiselt p {
+    position: absolute;
+    width: 100%; }
+  .choiselt p:nth-of-type(1) {
+    top: 130px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 26px;
+    z-index: 2; }
+  .choiselt p:nth-of-type(2) {
+    top: 160px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    z-index: 2; }
+  .choiselt p:nth-of-type(3) {
+    width: 150px;
+    height: 160px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -75px;
+    cursor: pointer; }
+    .choiselt p:nth-of-type(3) img {
+      width: 100%;
+      height: 100%;
+      vertical-align: middle; }
+
+.choisect {
+  float: left;
+  background: #fff;
+  width: 720px;
+  height: 360px; }
+  .choisect a {
+    float: left;
+    position: relative;
+    display: block;
+    width: 239px;
+    height: 180px;
+    border-bottom: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    overflow: hidden; }
+    .choisect a p:nth-of-type(1) {
+      position: absolute;
+      text-align: center;
+      top: 18px;
+      width: 100%;
+      height: 22px;
+      line-height: 22px;
+      font-size: 18px;
+      z-index: 2; }
+    .choisect a p:nth-of-type(2) {
+      position: absolute;
+      width: 100%;
+      height: 17px;
+      top: 42px;
+      z-index: 2;
+      line-height: 17px;
+      font-size: 14px;
+      text-align: center;
+      color: #999; }
+    .choisect a img {
+      width: 140px;
+      height: 110px;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-left: -70px; }
+
+#choiseNess {
+  width: 100%;
+  height: 360px; }
+  #choiseNess .choisert {
+    float: left;
+    width: 240px;
+    height: 100%;
+    overflow: hidden; }
+    #choiseNess .choisert a {
+      width: 120px;
+      height: 90px;
+      overflow: hidden;
+      display: block;
+      float: left;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #fff; }
+      #choiseNess .choisert a img {
+        width: 60px;
+        height: 60px; }
+
+#showTitle {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 25px;
+  line-height: 22px; }
+  #showTitle span {
+    display: block;
+    float: left; }
+  #showTitle span:nth-of-type(1) {
+    width: 7px;
+    height: 22px;
+    background: red;
+    margin-right: 10px; }
+  #showTitle span:nth-of-type(2) {
+    font-size: 20px;
+    margin-right: 30px; }
+  #showTitle .see {
+    position: absolute;
+    right: 0; }
+    #showTitle .see em {
+      font-size: 14px;
+      margin-left: 3px; }
+  #showTitle p {
+    width: 811px;
+    float: left;
+    height: 100%;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666; }
+    #showTitle p a {
+      font-size: 14px;
+      padding: 0 14px;
+      color: #666; }
+
+#choiseDay {
+  width: 100%;
+  height: 360px; }
+  #choiseDay .choisert {
+    float: left;
+    width: 240px;
+    height: 100%;
+    overflow: hidden; }
+    #choiseDay .choisert a {
+      width: 240px;
+      height: 100%;
+      display: block; }
+      #choiseDay .choisert a img {
+        width: 100%;
+        height: 100%; }
+
+#girlWear, #girlShoes, #handBag, #accessory, #sports, #goodChoise, #homeFoods, #underWear, #boyFriend, #mom, #beauty {
+  width: 100%;
+  height: 360px; }
+  #girlWear .choisert, #girlShoes .choisert, #handBag .choisert, #accessory .choisert, #sports .choisert, #goodChoise .choisert, #homeFoods .choisert, #underWear .choisert, #boyFriend .choisert, #mom .choisert, #beauty .choisert {
+    float: left;
+    width: 240px;
+    height: 100%;
+    overflow: hidden; }
+    #girlWear .choisert a, #girlShoes .choisert a, #handBag .choisert a, #accessory .choisert a, #sports .choisert a, #goodChoise .choisert a, #homeFoods .choisert a, #underWear .choisert a, #boyFriend .choisert a, #mom .choisert a, #beauty .choisert a {
+      width: 240px;
+      height: 100%;
+      display: block; }
+      #girlWear .choisert a img, #girlShoes .choisert a img, #handBag .choisert a img, #accessory .choisert a img, #sports .choisert a img, #goodChoise .choisert a img, #homeFoods .choisert a img, #underWear .choisert a img, #boyFriend .choisert a img, #mom .choisert a img, #beauty .choisert a img {
+        width: 100%;
+        height: 100%; }
+
+#themTitle {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 950px;
+  height: 25px;
+  line-height: 22px;
+  font-weight: normal; }
+  #themTitle span {
+    display: block;
+    float: left; }
+  #themTitle span:nth-of-type(1) {
+    width: 7px;
+    height: 22px;
+    background: red;
+    margin-right: 10px; }
+  #themTitle span:nth-of-type(2) {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 30px; }
+  #themTitle ul {
+    overflow: hidden;
+    float: right; }
+    #themTitle ul li {
+      width: 29px;
+      height: 29px;
+      float: left;
+      margin-left: 5px;
+      font-size: 11px;
+      color: #fff;
+      text-align: center;
+      line-height: 29px;
+      background: #ccc;
+      border-radius: 50%;
+      cursor: pointer; }
+      #themTitle ul li:hover {
+        background: #000; }
+
+#chooseThem {
+  position: relative; }
+  #chooseThem .themlt {
+    float: left;
+    position: absolute;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 950px;
+    height: 260px; }
+    #chooseThem .themlt .bannerone {
+      width: 310px;
+      height: 260px; }
+      #chooseThem .themlt .bannerone .content1 {
+        width: 310px;
+        height: 155px; }
+        #chooseThem .themlt .bannerone .content1 img {
+          width: 100%;
+          height: 100%; }
+      #chooseThem .themlt .bannerone .content2 {
+        width: 100%;
+        height: 105px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center; }
+        #chooseThem .themlt .bannerone .content2 img {
+          width: 60px;
+          height: 60px; }
+  #chooseThem .themrt {
+    float: right;
+    width: 240px;
+    height: 260px;
+    background: #fff; }
+    #chooseThem .themrt .themtop {
+      width: 220px;
+      height: 40px; }
+    #chooseThem .themrt .thembottom {
+      width: 225px;
+      height: 200px; }
 
 /*# sourceMappingURL=mogu.css.map */
