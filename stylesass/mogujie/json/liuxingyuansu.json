@@ -1,0 +1,20 @@
+{
+    "data":{
+        "60932":{
+            "context":{
+                "currentTime":1510367294
+            },
+            "isEnd":true,
+            "list":[
+                {
+                    "popImage":"https://s11.mogucdn.com/mlcdn/c45406/171029_4k4d86lc84b7ag0366ij01hhl3hj1_400x400.png",
+                    "popLink":"http://1111.mogujie.com/index",
+                    "acm":"3.mce.1_10_1eu5c.60932.0.ldfTXqADhfbgY.m_346100-pos_0"
+                }
+            ],
+            "nextPage":1
+        }
+    },
+    "returnCode":"SUCCESS",
+    "success":true
+}

@@ -642,15 +642,15 @@ header {
       left: 50%;
       margin-left: -70px; }
 
-#choiseNess {
+#choiseNess, #girlWear, #sports {
   width: 100%;
   height: 360px; }
-  #choiseNess .choisert {
+  #choiseNess .choisert, #girlWear .choisert, #sports .choisert {
     float: left;
     width: 240px;
     height: 100%;
     overflow: hidden; }
-    #choiseNess .choisert a {
+    #choiseNess .choisert a, #girlWear .choisert a, #sports .choisert a {
       width: 120px;
       height: 90px;
       overflow: hidden;
@@ -661,7 +661,7 @@ header {
       justify-content: center;
       align-items: center;
       background: #fff; }
-      #choiseNess .choisert a img {
+      #choiseNess .choisert a img, #girlWear .choisert a img, #sports .choisert a img {
         width: 60px;
         height: 60px; }
 
@@ -719,19 +719,8 @@ header {
 
 #girlWear, #girlShoes, #handBag, #accessory, #sports, #goodChoise, #homeFoods, #underWear, #boyFriend, #mom, #beauty {
   width: 100%;
-  height: 360px; }
-  #girlWear .choisert, #girlShoes .choisert, #handBag .choisert, #accessory .choisert, #sports .choisert, #goodChoise .choisert, #homeFoods .choisert, #underWear .choisert, #boyFriend .choisert, #mom .choisert, #beauty .choisert {
-    float: left;
-    width: 240px;
-    height: 100%;
-    overflow: hidden; }
-    #girlWear .choisert a, #girlShoes .choisert a, #handBag .choisert a, #accessory .choisert a, #sports .choisert a, #goodChoise .choisert a, #homeFoods .choisert a, #underWear .choisert a, #boyFriend .choisert a, #mom .choisert a, #beauty .choisert a {
-      width: 240px;
-      height: 100%;
-      display: block; }
-      #girlWear .choisert a img, #girlShoes .choisert a img, #handBag .choisert a img, #accessory .choisert a img, #sports .choisert a img, #goodChoise .choisert a img, #homeFoods .choisert a img, #underWear .choisert a img, #boyFriend .choisert a img, #mom .choisert a img, #beauty .choisert a img {
-        width: 100%;
-        height: 100%; }
+  height: 360px;
+  background: #fff; }
 
 #themTitle {
   position: relative;
@@ -772,17 +761,69 @@ header {
         background: #000; }
 
 #chooseThem {
-  position: relative; }
+  position: relative;
+  width: 1200px;
+  height: 260px; }
+  #chooseThem .bannerparent {
+    overflow: hidden;
+    width: 950px;
+    height: 260px;
+    float: left; }
+    #chooseThem .bannerparent:hover .btn {
+      display: block; }
+    #chooseThem .bannerparent .btn {
+      z-index: 2;
+      width: 35px;
+      height: 60px;
+      background: rgba(34, 34, 33, 0.6);
+      font-size: 30px;
+      color: #fff;
+      text-align: center;
+      line-height: 60px;
+      position: absolute;
+      top: 50%;
+      margin-top: -30px;
+      display: none; }
+    #chooseThem .bannerparent .btnlt {
+      left: 0;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px; }
+    #chooseThem .bannerparent .btnrt {
+      right: 250px;
+      border-radius: 5px 0px 0px 5px; }
   #chooseThem .themlt {
     float: left;
-    position: absolute;
-    margin-right: 10px;
     overflow: hidden;
     width: 950px;
     height: 260px; }
     #chooseThem .themlt .bannerone {
+      position: relative;
+      float: left;
       width: 310px;
-      height: 260px; }
+      height: 260px;
+      margin-right: 10px; }
+      #chooseThem .themlt .bannerone p {
+        height: 20px;
+        z-index: 3;
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        display: flex;
+        background: rgba(34, 34, 33, 0.4);
+        border-radius: 11px;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 5px;
+        opacity: 0.8;
+        filter: alpha(opacity=80); }
+        #chooseThem .themlt .bannerone p .logo {
+          width: 16px;
+          height: 16px;
+          border-radius: 50%; }
+        #chooseThem .themlt .bannerone p span {
+          margin: 2px 3px;
+          font-size: 11px;
+          color: #fff; }
       #chooseThem .themlt .bannerone .content1 {
         width: 310px;
         height: 155px; }
@@ -793,21 +834,239 @@ header {
         width: 100%;
         height: 105px;
         display: flex;
-        justify-content: space-around;
-        align-items: center; }
-        #chooseThem .themlt .bannerone .content2 img {
+        align-items: center;
+        background: #fff; }
+        #chooseThem .themlt .bannerone .content2 a {
+          display: block;
+          float: left;
           width: 60px;
-          height: 60px; }
+          height: 85px;
+          margin-left: 14px; }
+          #chooseThem .themlt .bannerone .content2 a img {
+            width: 60px;
+            height: 60px; }
+    #chooseThem .themlt .bannerone:nth-of-type(3) {
+      margin-right: 0; }
   #chooseThem .themrt {
     float: right;
     width: 240px;
     height: 260px;
     background: #fff; }
     #chooseThem .themrt .themtop {
-      width: 220px;
-      height: 40px; }
+      width: 240px;
+      height: 40px;
+      margin-left: 20px;
+      margin-top: 10px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 16px; }
     #chooseThem .themrt .thembottom {
       width: 225px;
-      height: 200px; }
+      height: 200px;
+      margin-left: 15px; }
+      #chooseThem .themrt .thembottom a {
+        float: left;
+        display: block;
+        width: 60px;
+        height: 80px;
+        margin-right: 15px;
+        margin-top: 10px; }
+        #chooseThem .themrt .thembottom a:hover {
+          text-decoration: underline; }
+        #chooseThem .themrt .thembottom a img {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%; }
+        #chooseThem .themrt .thembottom a p {
+          width: 60px;
+          height: 20px;
+          line-height: 20px;
+          text-align: center;
+          font-size: 12px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden; }
+
+#gassLike {
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: bolder; }
+
+#anyGoods {
+  width: 1200px;
+  overflow: hidden;
+  position: relative; }
+  #anyGoods .goodsList {
+    position: relative;
+    width: 220px;
+    height: 404px;
+    background: #fff;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    float: left; }
+    #anyGoods .goodsList .bord {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 10;
+      width: 218px;
+      height: 402px; }
+    #anyGoods .goodsList .hide {
+      display: none;
+      z-index: 5;
+      position: absolute;
+      bottom: 74px;
+      width: 100%;
+      height: 25px;
+      background: #FF5777;
+      opacity: 0.95;
+      filter: alpha(opacity=95);
+      color: #fff;
+      line-height: 25px;
+      font-size: 14px;
+      text-align: center; }
+    #anyGoods .goodsList a {
+      overflow: hidden; }
+      #anyGoods .goodsList a .bigimgs {
+        width: 220px;
+        height: 330px; }
+      #anyGoods .goodsList a .toplogo {
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        top: 0px;
+        left: 10px; }
+    #anyGoods .goodsList .goodsMessage {
+      width: 220px; }
+      #anyGoods .goodsList .goodsMessage .word {
+        width: 208px;
+        overflow: hidden;
+        font-size: 14px;
+        margin: 5px 6px 3px 6px; }
+      #anyGoods .goodsList .goodsMessage .liangpin {
+        width: 30px;
+        height: 18px;
+        margin-left: 6px; }
+      #anyGoods .goodsList .goodsMessage .price {
+        position: relative;
+        display: flex;
+        width: 202px;
+        height: 25px;
+        line-height: 25px;
+        align-items: center;
+        margin-left: 6px; }
+        #anyGoods .goodsList .goodsMessage .price span {
+          display: inline-block; }
+        #anyGoods .goodsList .goodsMessage .price span:nth-of-type(1) {
+          color: #333;
+          font-weight: 700;
+          font-size: 16px;
+          float: left; }
+        #anyGoods .goodsList .goodsMessage .price span:nth-of-type(2) {
+          width: 47px;
+          font-size: 12px;
+          color: #666;
+          margin-left: 10px;
+          text-decoration: line-through;
+          float: left; }
+        #anyGoods .goodsList .goodsMessage .price span:nth-of-type(3) {
+          width: 16px;
+          height: 15px;
+          position: absolute;
+          right: 35px; }
+          #anyGoods .goodsList .goodsMessage .price span:nth-of-type(3) img {
+            width: 100%;
+            height: 100%; }
+        #anyGoods .goodsList .goodsMessage .price span:nth-of-type(4) {
+          width: 30px;
+          height: 20px;
+          position: absolute;
+          right: 0;
+          line-height: 20px; }
+
+#foot {
+  width: 1200px;
+  margin-left: 33px; }
+  #foot .help {
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid red; }
+    #foot .help div {
+      float: left;
+      width: 300px;
+      height: 100px; }
+      #foot .help div h4 {
+        font-size: 14px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        height: 25px;
+        line-height: 25px;
+        overflow: hidden; }
+      #foot .help div ul {
+        width: 160px;
+        height: 40px; }
+        #foot .help div ul li {
+          float: left;
+          display: inline-block;
+          width: 80px;
+          height: 20px;
+          line-height: 20px; }
+          #foot .help div ul li a {
+            color: #999; }
+    #foot .help div:nth-child(4) ul {
+      width: 186px; }
+      #foot .help div:nth-child(4) ul li {
+        width: 62px; }
+  #foot p:nth-of-type(1) {
+    width: 1200px;
+    height: 54px;
+    border-bottom: solid 1px #333; }
+    #foot p:nth-of-type(1) a {
+      float: left;
+      display: inline-block;
+      color: #666;
+      margin: 10px 0 5px; }
+      #foot p:nth-of-type(1) a:hover {
+        color: red; }
+    #foot p:nth-of-type(1) span {
+      display: inline-block;
+      float: left;
+      margin: 10px 5px 5px; }
+  #foot p:nth-of-type(2) {
+    width: 100%;
+    height: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    #foot p:nth-of-type(2) a {
+      float: left;
+      display: inline-block;
+      color: #666;
+      margin: 10px 0 5px; }
+      #foot p:nth-of-type(2) a:hover {
+        color: red; }
+    #foot p:nth-of-type(2) span {
+      display: inline-block;
+      float: left;
+      margin: 10px 5px 5px; }
+  #foot p:nth-of-type(3) {
+    width: 100%;
+    height: 27px; }
+    #foot p:nth-of-type(3) a {
+      float: left;
+      display: inline-block;
+      color: #666;
+      margin: 10px 0 5px; }
+      #foot p:nth-of-type(3) a:hover {
+        color: red; }
+    #foot p:nth-of-type(3) span {
+      display: inline-block;
+      float: left;
+      margin: 10px 5px 5px; }
 
 /*# sourceMappingURL=mogu.css.map */
