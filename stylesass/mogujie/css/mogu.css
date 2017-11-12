@@ -207,11 +207,145 @@ header {
   margin-bottom: 10px;
   display: flex; }
   #bannerwrap .classify {
+    position: relative;
     float: left;
     width: 256px;
     height: 100%;
     background: #fee0f0;
     margin-left: 33px; }
+    #bannerwrap .classify .caption {
+      width: 100%;
+      height: 100%;
+      padding-top: 5px; }
+      #bannerwrap .classify .caption .list {
+        display: flex;
+        align-items: center;
+        width: 238px;
+        height: 21px;
+        line-height: 21px;
+        padding: 5px 0 5px 18px;
+        border-left: 2px solid transparent; }
+        #bannerwrap .classify .caption .list:hover {
+          background: #fff;
+          border-left: 2px solid #FF0000; }
+        #bannerwrap .classify .caption .list a:nth-of-type(1), #bannerwrap .classify .caption .list a:nth-of-type(2), #bannerwrap .classify .caption .list a:nth-of-type(3), #bannerwrap .classify .caption .list a:nth-of-type(4) {
+          display: inline-block;
+          height: 100%;
+          float: left;
+          font-size: 12px;
+          color: #666;
+          font-weight: normal;
+          margin: 0 8px; }
+          #bannerwrap .classify .caption .list a:nth-of-type(1):hover, #bannerwrap .classify .caption .list a:nth-of-type(2):hover, #bannerwrap .classify .caption .list a:nth-of-type(3):hover, #bannerwrap .classify .caption .list a:nth-of-type(4):hover {
+            text-decoration: underline; }
+          #bannerwrap .classify .caption .list a:nth-of-type(1):nth-of-type(1), #bannerwrap .classify .caption .list a:nth-of-type(2):nth-of-type(1), #bannerwrap .classify .caption .list a:nth-of-type(3):nth-of-type(1), #bannerwrap .classify .caption .list a:nth-of-type(4):nth-of-type(1) {
+            font-size: 14px;
+            color: #333;
+            margin: 0; }
+    #bannerwrap .classify .captionShow {
+      display: none;
+      z-index: 10;
+      position: absolute;
+      left: 256px;
+      top: 0;
+      width: 482px;
+      height: 100%;
+      padding: 0 20px;
+      float: left;
+      background: #fff; }
+      #bannerwrap .classify .captionShow h2 {
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        margin: 0;
+        color: #333; }
+      #bannerwrap .classify .captionShow dl {
+        width: 482px;
+        margin-bottom: 18px;
+        overflow: hidden; }
+        #bannerwrap .classify .captionShow dl dt {
+          display: flex;
+          justify-content: space-between;
+          width: 482px;
+          height: 24px;
+          line-height: 24px;
+          font-size: 12px;
+          color: #333;
+          border-bottom: 1px solid #e5e5e5; }
+        #bannerwrap .classify .captionShow dl dd {
+          float: left;
+          max-height: 50px;
+          overflow: hidden;
+          margin-top: 8px;
+          font-size: 12px;
+          color: #999; }
+          #bannerwrap .classify .captionShow dl dd a {
+            display: inline-block;
+            text-decoration: none;
+            float: left;
+            margin: 6px 20px 0 0 !important; }
+            #bannerwrap .classify .captionShow dl dd a:hover {
+              text-decoration: underline; }
+            #bannerwrap .classify .captionShow dl dd a .brand {
+              margin-right: 5px;
+              margin-left: 15px; }
+    #bannerwrap .classify .recommend {
+      display: none;
+      z-index: 10;
+      position: absolute;
+      left: 778px;
+      top: 0;
+      height: 440px;
+      width: 256px;
+      background: #f6f6f6; }
+      #bannerwrap .classify .recommend h2 {
+        width: 100%;
+        height: 19px;
+        font-weight: bolder;
+        line-height: 19px;
+        font-size: 16px;
+        margin: 11px auto 0;
+        color: #333333;
+        text-align: center; }
+      #bannerwrap .classify .recommend h3 {
+        width: 100%;
+        height: 14px;
+        font-weight: 600;
+        margin: 4px auto 2px;
+        text-align: center;
+        line-height: 14px;
+        font-size: 12px;
+        color: #666666; }
+      #bannerwrap .classify .recommend a {
+        position: relative;
+        display: block;
+        width: 100px !important;
+        height: 120px !important;
+        float: left;
+        margin: 6px 4px 2px 17px; }
+        #bannerwrap .classify .recommend a:hover img {
+          opacity: 0.7;
+          filter: alpha(opacity=70); }
+        #bannerwrap .classify .recommend a img {
+          width: 100%;
+          height: 100%; }
+        #bannerwrap .classify .recommend a p {
+          position: absolute;
+          z-index: 10;
+          width: 100%; }
+        #bannerwrap .classify .recommend a p:nth-of-type(1) {
+          bottom: 15px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          height: 20px;
+          background: rgba(255, 255, 255, 0.8); }
+        #bannerwrap .classify .recommend a p:nth-of-type(2) {
+          height: 15px;
+          bottom: 0;
+          background: #f6f6f6;
+          text-align: center;
+          line-height: 20px; }
   #bannerwrap .banner {
     position: relative;
     float: left;
@@ -430,12 +564,13 @@ header {
       height: 100%; }
   #imgluobo .imgrg {
     position: relative;
-    width: 1000px;
+    width: 1010px;
     height: 273px;
     background: #fff;
     padding-left: 15px;
     overflow: hidden; }
     #imgluobo .imgrg .iconfont {
+      display: none;
       position: absolute;
       width: 20px;
       height: 50px;
@@ -459,7 +594,7 @@ header {
     #imgluobo .imgrg .divnum {
       position: absolute;
       margin-top: 10px;
-      display: none; }
+      left: 1000px; }
       #imgluobo .imgrg .divnum div {
         width: 197px;
         height: 271px;
@@ -542,6 +677,8 @@ header {
       font-size: 14px;
       padding: 0 14px;
       color: #666; }
+      #choiseTitle p a:hover {
+        text-decoration: underline; }
 
 .choiselt {
   float: left;
@@ -700,6 +837,8 @@ header {
       font-size: 14px;
       padding: 0 14px;
       color: #666; }
+      #showTitle p a:hover {
+        text-decoration: underline; }
 
 #choiseDay {
   width: 100%;
@@ -763,10 +902,11 @@ header {
 #chooseThem {
   position: relative;
   width: 1200px;
-  height: 260px; }
+  height: 260px;
+  overflow: hidden; }
   #chooseThem .bannerparent {
     overflow: hidden;
-    width: 950px;
+    width: 4750px;
     height: 260px;
     float: left; }
     #chooseThem .bannerparent:hover .btn {
@@ -848,7 +988,9 @@ header {
     #chooseThem .themlt .bannerone:nth-of-type(3) {
       margin-right: 0; }
   #chooseThem .themrt {
-    float: right;
+    z-index: 10;
+    position: absolute;
+    right: 0;
     width: 240px;
     height: 260px;
     background: #fff; }
@@ -990,6 +1132,12 @@ header {
           right: 0;
           line-height: 20px; }
 
+footer {
+  width: 1200px;
+  height: 342px;
+  display: flex;
+  align-items: center; }
+
 #foot {
   width: 1200px;
   margin-left: 33px; }
@@ -1019,54 +1167,65 @@ header {
           line-height: 20px; }
           #foot .help div ul li a {
             color: #999; }
+            #foot .help div ul li a:hover {
+              color: red; }
+          #foot .help div ul li em {
+            color: #999; }
     #foot .help div:nth-child(4) ul {
       width: 186px; }
       #foot .help div:nth-child(4) ul li {
         width: 62px; }
   #foot p:nth-of-type(1) {
     width: 1200px;
-    height: 54px;
-    border-bottom: solid 1px #333; }
+    height: 44px;
+    border-bottom: solid 1px #ddd;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0 10px; }
     #foot p:nth-of-type(1) a {
       float: left;
       display: inline-block;
       color: #666;
-      margin: 10px 0 5px; }
+      margin: 6px 5px 3px 5px; }
       #foot p:nth-of-type(1) a:hover {
         color: red; }
     #foot p:nth-of-type(1) span {
       display: inline-block;
       float: left;
-      margin: 10px 5px 5px; }
+      margin: 6px 5px 3px 5px; }
   #foot p:nth-of-type(2) {
     width: 100%;
     height: 19px;
     margin-top: 10px;
-    margin-bottom: 10px; }
+    line-height: 19px; }
     #foot p:nth-of-type(2) a {
       float: left;
       display: inline-block;
       color: #666;
-      margin: 10px 0 5px; }
+      margin-right: 30px; }
       #foot p:nth-of-type(2) a:hover {
         color: red; }
-    #foot p:nth-of-type(2) span {
-      display: inline-block;
-      float: left;
-      margin: 10px 5px 5px; }
   #foot p:nth-of-type(3) {
     width: 100%;
-    height: 27px; }
+    height: 27px;
+    display: flex;
+    align-items: center;
+    color: #999; }
+    #foot p:nth-of-type(3) b {
+      float: left;
+      display: inline-block;
+      padding-left: 3px; }
+      #foot p:nth-of-type(3) b:nth-child(1) {
+        padding-left: 0px; }
     #foot p:nth-of-type(3) a {
       float: left;
       display: inline-block;
-      color: #666;
-      margin: 10px 0 5px; }
-      #foot p:nth-of-type(3) a:hover {
-        color: red; }
+      color: #999;
+      margin: 0 5px; }
     #foot p:nth-of-type(3) span {
       display: inline-block;
       float: left;
-      margin: 10px 5px 5px; }
+      margin: 0 5px; }
 
 /*# sourceMappingURL=mogu.css.map */
