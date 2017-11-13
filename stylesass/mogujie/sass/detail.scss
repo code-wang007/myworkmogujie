@@ -1,0 +1,110 @@
+#detailSearchBar{
+    width:100%;
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#fff;
+    border:solid 1px #ccc;
+    .lookDetail{
+        position: relative;
+        margin-left: 43px;
+        width:507px;
+        height:70px;
+    }
+    .detailSearch{
+        width:582px;
+        height:36px;       
+        display: flex;
+        justify-content: space-between;
+        form{
+            float: left;
+            display: flex;
+            justify-content: space-between;
+            width:480px;
+            height:36px;
+            background:#fff;
+            border:solid 1px #f07;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            #dttxt{
+                float: left;
+                width:300px;
+                height:34px;
+                border:none;
+                padding-left: 15px;
+            }
+            #dtbtn{
+                float: left;
+               width:100px;
+                height:36px;
+                text-align: center;
+                line-height: 34px;
+                color:#fff;
+                font-size: 16px;
+                background: #f07;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                border: none;
+            }
+        }
+        #btnself{
+            float: left;
+            width:100px;
+            height:38px;
+            text-align: center;
+            line-height: 36px;
+            color:#fff;
+            font-size: 16px;
+            background: #f07;
+            margin-left: 5px;
+            border-radius: 5px;
+            border:none;
+            margin-right:40px;
+        }
+    }
+}
+//<!-------------------------bgTab--------------------------->
+.showRight{
+    z-index: 100;
+    position: fixed;
+    right:0;
+    width:30px;
+    height:100%;
+    background:#000;
+}
+#bgTab{
+    position: relative;
+    width:100%;
+    height:150px;
+    //margin-left: 53px;
+    boredr:solid 1px red;
+    .bgShow{
+        position: absolute;
+        bottom:0;
+        width:100%;
+        height:30px;
+        background:#333;
+        .bgMessageShow{
+            width:1200px;
+            height:30px;
+            margin-left: 53px;
+            li{ 
+                height:100%;
+                float: left;
+                //line-height:30px;
+                
+                a{
+                    display: inline-block;
+                    height:14px;
+                    margin-top:7px;
+                    color:#eee;
+                    padding:0 20px;
+                    font-size: 13px;
+                    border-right:solid 1px #aaa;
+                }
+            }
+        }
+    }
+    
+}

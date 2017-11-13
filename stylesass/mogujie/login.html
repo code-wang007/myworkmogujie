@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/publiccss.css" />
+		<link rel="stylesheet" type="text/css" href="css/mogu.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<script src="jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="javascript/conmen1.js"></script>
+		<script src="javascript/login.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		<form class="log">
+			<fieldset id="">
+				<label for="" class="user">用户名<input type="text" placeholder="请输入用户名" id="userName"/></label>
+			</fieldset>
+			<div>
+				<p class="userMessage"><span class="mistake">-</span><span class="tishi">用户名格式错误，仅支持字母、数字、“_”且长度为6-15位</span></p>
+			</div>
+			<fieldset id="">
+				<label for="">设置密码<input type="password" placeholder="请输入密码" id="psw" /></label>
+			</fieldset>
+			<div>
+				<p class="pswMessage"><span class="ruo"></span><span class="pd"></span></p>
+			</div>
+			<fieldset id="">
+				<label for="">确认密码<input type="text" placeholder="请再次输入密码" id="align"/></label>
+			</fieldset>
+			<div>
+				<p class="alignMessage"><span>您输入的密码不一致！</span></p>
+			</div>
+			<fieldset id="">
+				<label for="">邮箱验证<input type="text" placeholder="请输入邮箱" id="email"/></label>
+			</fieldset>
+			<div>
+				<p class="emailMessage">您输入的邮箱格式不正确！例如：xxx@qq.com.cn</p>
+			</div>
+			<fieldset id="">
+				<label for="">手机验证<input type="text" placeholder="请输入手机号" id="phone"/></label>
+			</fieldset>
+			<div>
+				<p class="phoneMessage">您输入的手机号不正确！</p>
+			</div>
+
+			<div class="deal"><input type="checkbox" class="ckbox" /><span class="agree">我已阅读并同意</span>
+				<a href=""> 《蘑菇街用户注册协议》</a>
+			</div>
+			<a href="javascript:;" class="btn">注册</a>
+		</form>
+
+	</body>
+
+</html>

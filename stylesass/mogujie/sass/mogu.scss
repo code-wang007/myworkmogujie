@@ -1,14 +1,4 @@
-@charset "utf-8";
-html,body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend,span{margin:0; padding:0;}
-ul,li,ol{list-style:none;}
-img,fieldset{border:0; }
-img{display:block;border:0;}
-a{text-decoration:none; color:#333;}
-h1,h2,h3,h4,h5,h6{font-weight:100;}
-html,body{ font-family:"微软雅黑";font-size: 12px;}
-body{background:#f5f5f5;}
-input,a{outline:none;}
-em,i{font-style: normal;}
+
 header{
     background:#f2f2f2;
     width:100%;
@@ -19,52 +9,142 @@ header{
     height:100%;
     margin-left:60px;
     margin-right:30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     .iconfont{
         font-size: 12px;
         color:#666;
     }
     .icon-home{
+        line-height: 31px;
         span{
             margin-left: 5px;
         }
     }
-    p{
-        display: flex;
-        a{
-            display: block;
-            padding-right: 15px;
-            border-right: solid 2px #dddddd;
-        }
-        a:last-child{
-            border:none;
-        }
-        .icon-wodedingdan{
-            margin-left: 18px;
-            span{margin-left:5px;}
-        }
-        a{
-            .icon-gouwuche1{
-                margin-left:10px;
-                color:red;
+    .topcon{
+        position: relative;
+        width:414px;
+        height:31px;
+        float: right;
+        
+        
+        .content{
+           height:14px;
+           margin-top:8px;
+           //padding-left: 25px;
+            .conlis{
+                position: relative;
+                float: left;
+                padding:0 16px;
+                border-right:solid 1px #959595;
+                &:last-child{
+                    border:none;
+                    padding-right:0;
+                    padding-left: 20px;
+                    span{
+                        z-index: 20;
+                    }
+                }
+                &:hover{
+                    cursor: pointer;
+                }
+                ul{
+                    display: none;
+                    position: absolute;
+                    top:-10px;
+                    border-bottom-left-radius:3px;
+                    border-bottom-right-radius: 3px;
+                    li{                      
+                        width:80px;
+                        height:30px;
+                        line-height: 30px;
+                        text-align: center;
+                        background:#EEEEEE;                         
+                        &:hover{
+                            background: #E5E5E5;
+                        }
+                        
+                    }
+                    .sameli {
+                        display: inline-block;
+                        height: 30px;
+                        line-height: 30px;
+                        background: transparent;
+                        &:hover{
+                            background: transparent;
+                        }
+                    }
+                }
+                .serfu{
+                        left:1px;                       
+                }
+                .small{
+                    left:10px;                    
+                }
+                &:last-child{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                .xiaodian{
+                    display: inline-block;
+                    width:20px;
+                    height:20px;
+                    background: url(../images/xiaodian.gif) no-repeat;
+                }
             }
-            span{margin-left:10px;}
         }
-        .arry{padding-left:15px;} 
-        .topsmall{
-            display: flex;
-            span{
-                background:url(../images/xiaodian.gif) no-repeat;
-                margin-left:10px;
-                margin-right:3px;
-                display: block;
-                width:20px;
-                height:20px;
-            }
-        }            
+        
     }
+    
+    
+//  p{
+//      display: flex;
+//      a{        
+//          display: block;
+//          padding-right: 15px;
+//          border-right: solid 2px #dddddd;
+//      }
+//      a:last-child{
+//          border:none;
+//      }
+//      .icon-wodedingdan{
+//          margin-left: 18px;
+//          span{margin-left:5px;}
+//      }
+//      a{
+//          .icon-gouwuche1{
+//              margin-left:10px;
+//              color:red;
+//          }
+//          span{margin-left:10px;}
+//      }
+//      .arry{
+//          padding-left:15px;
+////          ul{
+////              position: absolute;
+////              height:60px;
+////              overflow: hidden;
+////              top:30px;
+////              li{
+////                  width:60px;
+////                  height:20px;
+////                  text-align: center;
+////                  line-height: 20px;
+////                  background: #f2f2f2;
+////              }
+////          }
+//      } 
+//      .topsmall{
+//          display: flex;
+//          span{
+//              background:url(../images/xiaodian.gif) no-repeat;
+//              margin-left:10px;
+//              margin-right:3px;
+//              display: block;
+//              width:20px;
+//              height:20px;
+//          }
+//      }            
+//  }
 }
 //<!----------------------topbanner---------------------->
 #topbanner{
@@ -368,7 +448,7 @@ header{
                 width: 100px !important;
                 height: 120px !important;
                 float: left;
-                margin: 6px 4px 2px 17px;
+                margin: 6px 4px 2px 17px !important;
                 &:hover{
                     img{
                         opacity: 0.7;
@@ -1365,12 +1445,16 @@ header{
 }
 //<!------------------------------footer------------------->
 footer{
+    position: absolute;
+    bottom:0;
      width:1200px;
     height:342px;
     display: flex;
     align-items: center;
 }
 #foot{
+    position: relative;
+    bottom: 0;
     width:1200px;
     margin-left: 33px;
     .help{

@@ -1,0 +1,118 @@
+body{
+    background:url(../images/mogugg.jpg) no-repeat;
+    background-size: cover;
+}
+.log{
+        width: 500px;
+        border: solid 1px #f5665e;
+        margin: 50px auto;
+        padding: 30px 50px;
+        background: rgba(246,77,68,.5);
+        font-size: 16px;
+        fieldset {
+            width: 500px;
+            height: 40px;
+            border: solid 1px #ccc;
+            overflow: hidden;
+        }
+        input {
+            width: 380px;
+            height: 100%;
+            border: 0;
+            font-size: 15px;
+            outline: none;
+            padding-left: 15px;
+            
+            color: #000;
+        }
+        input:focus {
+            color: darkgreen;
+        }
+        label {
+            width: 100%;
+            height: 100%;
+            letter-spacing: 8px;
+            padding-left: 10px;            
+            background: #ffeceb;
+            display: block;
+        }
+        .user {
+            letter-spacing: 16px;
+        }
+        p {
+            font-size: 12px;
+            padding: 0 5px;
+            display: block;
+            width: 100%;
+            height: 20px;
+            line-height: 24px;
+            color: blue;
+            display: none;
+        }
+        div {
+            width: 100%;
+            height: 24px;
+        }
+        div p span {
+            float: left;
+        }
+        .mistake {
+            background: blue;
+            color: #fff;
+            width: 15px;
+            height: 15px;
+            display: block;
+            margin-top: 5px;
+            border-radius: 50px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 15px;
+        }
+        .tishi {
+            margin-left: 15px;
+            color: blue;
+        }
+        .pd {
+            margin-left: 15px;
+            color: blue;;
+        }
+        .ruo {
+            background: blue;
+            color: #fff;
+            width: 15px;
+            height: 15px;
+            display: block;
+            margin-top: 5px;
+            border-radius: 50px;
+            font-size: 12px;
+            text-align: center;
+            line-height: 15px;
+        }
+        .btn {
+            width: 100%;
+            height: 30px;
+            background: darkred;
+            color: #fff;
+            display: block;
+            font-size: 18px;
+            border-radius: 3px;
+            margin-top: 5px;
+            text-align: center;
+            line-height: 30px;
+        }
+        .ckbox {
+            width: 15px;
+            height: 15px;
+            border: solid 1px #ccc;
+        }
+        .agree {
+            padding-left: 10px;
+        }
+        .deal {
+            margin: 10px 0 20px;
+            font-size: 14px;
+        }
+        .deal a {
+            color: dodgerblue;
+        }
+    }

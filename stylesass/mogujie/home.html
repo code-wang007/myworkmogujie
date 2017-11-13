@@ -5,9 +5,10 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/mogu.css"/>
 		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/publiccss.css"/>
 		<script src="jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
 		<script src="javascript/conmen.js"></script>
-		
+		<script src="javascript/header.js" type="text/javascript" charset="utf-8"></script>
 		<script src="javascript/banner.js" type="text/javascript" charset="utf-8"></script>
 		<script src="javascript/meetingPlace.js" type="text/javascript" charset="utf-8"></script>
 		<script src="javascript/looks.js" type="text/javascript" charset="utf-8"></script>
@@ -37,14 +38,42 @@
 		
 		<header>
 			<div id="top">
-				<a href="" class="iconfont icon-home"><span>蘑菇街首页</span></a>
-				<p>
-					<a href="">登录</a>
-					<a href="" class="iconfont icon-wodedingdan"><span>我的订单</span></a>
-					<a href="" ><span class="iconfont icon-gouwuche1"></span><span>购物车</span></a>
-					<a href="" class="arry">客户服务<span class="iconfont icon-ion"></span></a>
-					<a href="" class="topsmall"><span></span>我的小店</a>
-				</p>
+				<a href="home.html" class="iconfont icon-home"><span>蘑菇街首页</span></a>
+				<div class="topcon">
+					<ul class="content">
+						<li class="conlis"><a href="register.html">登录</a></li>
+						<li class="conlis"><a href="" class="dingdan"><span class="iconfont icon-wodedingdan"></span><span>我的订单</span></a></li>
+						<li class="conlis"><a href="" class="gou"><span class="iconfont icon-gouwuche1"></span ><span>购物车</span></a></li>
+						<li class="conlis">客户服务
+							<ul class="serfu sameul">
+								<li class="sameli"><a href=""></a></li>
+							<li><a href="" class="service">消费者服务</a></li>
+							<li><a href="" class="service">商家服务</a></li>
+							<li><a href="" class="service">规则中心</a></li>
+							</ul>
+						</li>
+						<li class="conlis">
+							<span class="xiaodian"></span>
+							我的小店
+							<span class="iconfont icon-icon"></span>
+							<ul class="small sameul">
+								<li class="sameli"><a href=""></a></li>
+								<li><a href="">管理后台</a></li>
+								<li><a href="">商家社区</a></li>
+								<li><a href="">商家培训</a></li>
+								<li><a href="">市场入住</a></li>
+							</ul>
+						</li>
+					</ul>
+					<!--<a href="register.html" class="denglu">登录</a>
+					<a href="" class="dingdan"><span class="iconfont icon-wodedingdan"></span><span>我的订单</span></a>
+					<a href="" class="gou"><span class="iconfont icon-gouwuche1"></span ><span>购物车</span></a>
+					<p class="arry">客户服务
+					</p>
+					<p class="topsmall"><span></span>我的小店
+						<em class="iconfont icon-icon"></em>						
+					</p>-->
+				</div>
 			</div>
 		</header>
 		<div id="topbanner">
@@ -1055,17 +1084,7 @@
 		</div>
 		<footer>
 			<div id="foot">
-				<div class="help">
-					<!--<div>
-						<h4></h4>
-						<ul>
-							<li><a href=""></a></li>
-							<li><a href=""></a></li>
-							<li><a href=""></a></li>
-							<li><a href=""></a></li>
-						</ul>
-					</div>-->
-				</div>
+				<div class="help"></div>
 				<p></p>
 				<p></p>
 				<p></p>
