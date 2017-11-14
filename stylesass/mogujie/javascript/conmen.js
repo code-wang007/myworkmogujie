@@ -57,7 +57,7 @@ function goodsList(data) {
 		//console.log(data.result.wall.docs.length);
 		//console.log(index);
 		var $data = data.result.wall.docs;
-		var $border = $("<div class='bord'></div>");
+		//var $border = $("<div class='bord'></div>");
 		var $hide = $("<div class='hide'>找相似</div>");
 		var $div = $("<div class='goodsList'><a href=''><img src='' class='bigimgs'/><img src='' class='toplogo'/><div class='goodsMessage'><p class='word'></p><img src='' class='liangpin'/><p class='price'><span></span><span></span><span><img src='' alt=''></span><span></span></p></div></a></div>");
 
@@ -95,23 +95,23 @@ function goodsList(data) {
 		$div.children("a").children(".goodsMessage").children(".price").children("span").eq(2).children("img").attr("src", "//s18.mogucdn.com/p2/160908/upload_27g4f1ch6akie83hacb676j622b9l_32x30.png");
 		$div.children("a").children(".goodsMessage").children(".price").children("span").eq(3).append($data[index].sale);
 
-		$div.append($border);
+		//$div.append($border);
 		$div.append($hide);
 		$("#anyGoods").append($div);
-
+			$(".goodsList").css({"border":"solid 1px #f2f2f2"});
 		$(".goodsList").hover(function() {
 			$(this).children(".hide").css({
 				"display": "block"
 			});
-			$(this).children(".bord").css({
-				"border": "solid 1px red"
+			$(this).css({
+				"border-color": "red"
 			});
 		}, function() {
 			$(".hide").css({
 				"display": "none"
 			});
-			$(this).children(".bord").css({
-				"border": "none"
+			$(this).css({
+				"border-color": "#f2f2f2"
 			})
 		});
 

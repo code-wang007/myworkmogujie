@@ -1,0 +1,127 @@
+#prosessbox {
+  width: 100%;
+  height: 70px;
+  border: solid 1px #ccc; }
+  #prosessbox .prosess {
+    width: 1200px;
+    height: 100%;
+    margin-left: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    #prosessbox .prosess a {
+      display: inline-block;
+      width: 225px;
+      height: 52px; }
+    #prosessbox .prosess .prosessBar {
+      width: 494px;
+      height: 65px;
+      display: flex;
+      align-items: center; }
+      #prosessbox .prosess .prosessBar p {
+        position: relative;
+        top: -6px;
+        float: left;
+        width: 148px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        #prosessbox .prosess .prosessBar p i {
+          display: inline-block;
+          width: 23px;
+          height: 23px;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 23px;
+          color: #fff;
+          background: #AAAAAA; }
+        #prosessbox .prosess .prosessBar p .redp {
+          background: red; }
+        #prosessbox .prosess .prosessBar p em {
+          position: absolute;
+          display: inline-block;
+          width: 50px;
+          height: 20px;
+          left: -13px;
+          top: 25px;
+          text-align: center;
+          color: #999; }
+        #prosessbox .prosess .prosessBar p .firstred {
+          color: red; }
+        #prosessbox .prosess .prosessBar p span {
+          width: 148px;
+          display: flex;
+          align-items: center; }
+          #prosessbox .prosess .prosessBar p span b {
+            width: 64px;
+            height: 3px;
+            background: #AAAAAA; }
+        #prosessbox .prosess .prosessBar p .lastspan {
+          width: 20px; }
+        #prosessbox .prosess .prosessBar p:last-child {
+          width: 20px; }
+
+#cartShow {
+  width: 100%;
+  background: #fff;
+  padding-top: 30px; }
+  #cartShow .allGoodsShop {
+    width: 1200px;
+    margin-left: 33px;
+    background: #fff;
+    height: 38px; }
+    #cartShow .allGoodsShop li {
+      float: left;
+      font-size: 18px;
+      width: 152px;
+      height: 38px; }
+  #cartShow .allSellect {
+    width: 1200px;
+    height: 50px;
+    background: #f5f5f5;
+    border: solid 1px #ccc;
+    margin-left: 33px; }
+    #cartShow .allSellect div {
+      float: left;
+      width: 81px;
+      height: 100%;
+      line-height: 50px; }
+      #cartShow .allSellect div input {
+        margin-left: 20px; }
+    #cartShow .allSellect p {
+      float: left;
+      width: 540px;
+      height: 100%; }
+    #cartShow .allSellect ol {
+      float: left;
+      height: 100%;
+      line-height: 50px;
+      text-align: center; }
+    #cartShow .allSellect .spxx {
+      width: 140px; }
+    #cartShow .allSellect .dj {
+      width: 113px; }
+    #cartShow .allSellect .sl {
+      width: 145px; }
+    #cartShow .allSellect .xj {
+      width: 100px; }
+    #cartShow .allSellect .cz {
+      width: 80px; }
+  #cartShow .cusName {
+    width: 1200px;
+    height: 65px;
+    padding-left: 50px;
+    line-height: 80px; }
+    #cartShow .cusName input {
+      float: left;
+      margin-top: 33px;
+      margin-right: 5px;
+      margin-left: 10px; }
+    #cartShow .cusName ol {
+      float: left;
+      margin-right: 5px; }
+      #cartShow .cusName ol a img {
+        margin-top: 30px; }
+
+/*# sourceMappingURL=shopcart.css.map */

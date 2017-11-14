@@ -19,6 +19,15 @@ $(function(){
 						console.log(data);
 						goodsList(data);
 						
+						var $lists = $(".goodsList");
+						$.each($lists, function(index) {
+							$lists.eq(index).click(function(){
+								var tradeId = data.result.wall.docs[index].tradeItemId;
+								console.log(tradeId);
+								$(this).children("a").attr('href',"details.html?hb='"+tradeId+"'");
+							})
+						});
+						
 					});
 				}
 				flag2 = false;

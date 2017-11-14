@@ -1357,7 +1357,7 @@ header{
             display: none;
             z-index: 5;
             position: absolute;
-            bottom:74px;
+            bottom:72px;
             width:100%;
             height:25px;
             background:#FF5777;
@@ -1371,7 +1371,7 @@ header{
         a{
             overflow: hidden;
             .bigimgs{
-                width:220px;
+                width:218px;
                 height:330px;                
             }
             .toplogo{
@@ -1383,7 +1383,7 @@ header{
             }
         }
         .goodsMessage{
-                width:220px;
+                width:218px;
                 .word{
                     width:208px;
                     overflow: hidden;
@@ -1445,7 +1445,8 @@ header{
 }
 //<!------------------------------footer------------------->
 footer{
-    position: absolute;
+    
+    position: relative;
     bottom:0;
      width:1200px;
     height:342px;
