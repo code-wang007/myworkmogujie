@@ -15,6 +15,7 @@
 	</head>
 	<body>
 		<header>
+			
 			<div id="top">
 				<a href="home.html" class="iconfont icon-home"><span>蘑菇街首页</span></a>
 				<div class="topcon">
@@ -89,13 +90,13 @@
 		</div>
 		<div id="cartShow">
 			<div class="allGoodsShop">
-				<li class="allgds"><a href="">全部商品<span>1</span></a></li>
+				<li class="allgds"><a href="">全部商品<span></span></a></li>
 				<li><a href="">优惠<span>1</span></a></li>
 				<li><a href="">库存紧张<span>0</span></a></li>
 			</div>
 			<div class="allSellect">
 				<div>
-					<input type="checkbox" name="" id="" value="" />
+					<input type="checkbox" name="" class="all_sel" value="" />
 					<label for="">全选</label>
 				</div>
 				<p></p>
@@ -113,29 +114,44 @@
 				<ol>优惠券<span class="iconfont icon-icon"></span></ol>
 				<ol><a href="">去店铺凑单 ></a></ol>
 			</div>
-			<div class="shopMessage">
-				<div>
-					<input type="checkbox" name="" id="" value="" />
-					<label for="">全选</label>
-				</div>
-				<p>
-					<img src="" alt="" />
-					<span class="shopTitle"></span>
-				</p>
-				<ol class="">
-					<p>颜色：<span></span></p>
-					<p>尺码：<span></span></p>
-				</ol>
-				<ol class="">单价(元)</ol>
-				<ol class="">
-					<span>-</span>
-					<input type="text" name="" id="shopval" value="" />
-					<span>+</span>
-				</ol>
-				<ol class="">小计(元)</ol>
-				<ol class="">删除</ol>
+			<div id="shopCart_Show">
+				<!--<div class="shopMessage">
+					<div class="shop_ck">
+						<input type="checkbox" name="" id="" value="" />
+					</div>
+					<p class="shopName">
+						<img src="http://s3.mogucdn.com/mlcdn/c45406/171020_505fc41f5iiealdhje1g4g21hkj0k_640x960.jpg_100x100.jpg" alt="" />
+						<a href="#" class="shopTitle"></a>
+					</p>
+					<ol class="cart_cosize">
+						<p class="cart_col">颜色：<span></span></p>
+						<p class="cart_si">尺码：<span></span></p>
+					</ol>
+					<ol class="cart_price"></ol>
+					<ol class="cart_addred">
+						<span>-</span>
+						<input type="text" name="" id="shopval" value="1" />
+						<span>+</span>
+					</ol>
+					<ol class="smalltotal">￥78.00</ol>
+					<ol class="cart_delet">删除</ol>
+				</div>-->
 			</div>
-			<div class="allDelet pay"></div>
+			
+			<div class="allDelet pay">
+				<input type="checkbox" class="all_sel" id="" value="" />
+				<div class="pay_left">
+					<a href="">全选</a>
+					<a href="javascript:;" class="pay_del">删除</a>
+					<a href="">清空失效商品</a>
+					<a href="">移入收藏夹</a>
+				</div>
+				<div class="pay_right">
+					<div class="pay_total">全部商品，总计:</div>
+					<div class="totalPrice">￥0.00</div>
+					<a href="">去付款 ></a>
+				</div>
+			</div>
 		</div>
 		
 		<footer>

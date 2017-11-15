@@ -5,15 +5,26 @@ $(function(){
 		$(window).scroll(function(){
 			var scrolltop = $(window).scrollTop();
 			
-			/*if(scrolltop >= 12000){
+			if(scrolltop >= 6000){
 				if(flag1){
 					$.getJSON("http://list.mogujie.com/search?callback=?&cKey=pc-index&fcid=52014&pid=9750&searchTag=&sort=pop&page=2&ratio=2%3A3&_version=1&cpc_offset=0&offset=&_=1510376027643",function(data){
 						goodsList(data);
+						console.log(data);
+						
+						var $lists = $(".goodsList");
+						$.each($lists, function(index) {
+							$lists.eq(index).click(function(){
+								var $ind = index;
+								var tradeId = data.result.wall.docs[index].tradeItemId+$ind;
+								console.log(tradeId);
+				$(this).children("a").attr('href',"details.html?='"+tradeId+"'");
+							})
+						});
 					});
 				}
 				flag1 = false;
-			}*/
-			if(scrolltop >= 6000){
+			}
+			/*if(scrolltop >= 6000){
 				if(flag2){
 					$.getJSON("http://list.mogujie.com/search?callback=?&cKey=pc-index&fcid=52014&pid=9750&searchTag=&sort=pop&page=1&ratio=2%3A3&_version=1&cpc_offset=0&offset=&_=1510575076002",function(data){
 						console.log(data);
@@ -31,7 +42,7 @@ $(function(){
 					});
 				}
 				flag2 = false;
-			}
+			}*/
 			
 		});
 	

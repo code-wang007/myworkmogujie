@@ -14,12 +14,13 @@
 		<script src="javascript/dedail.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
+		
 		<header>
 			<div id="top">
 				<a href="home.html" class="iconfont icon-home"><span>蘑菇街首页</span></a>
 				<div class="topcon">
 					<ul class="content">
-						<li class="conlis"><a href="register.html">登录</a></li>
+						<li class="conlis"><a href="register.html" class="regi_succ">登录</a></li>
 						<li class="conlis"><a href="" class="dingdan"><span class="iconfont icon-wodedingdan"></span><span>我的订单</span></a></li>
 						<li class="conlis"><a href="" class="gou"><span class="iconfont icon-gouwuche1"></span ><span>购物车</span></a></li>
 						<li class="conlis">客户服务
@@ -150,7 +151,12 @@
 					</div>
 					<div class="addCart">
 						<a href="#">立刻购买</a>
-						<a href="#">加入购物车</a>
+						<a href="javascript:;" id="cartBtn">加入购物车</a>
+						<p class="tishi"></p>
+						<div id="pleaseregister">
+							<a href="register.html">点击进入登录页面</a>
+							<div class="close">关闭</div>
+						</div>
 					</div>
 					<div class="detailShare">
 						<p class="iconfont icon-wuxing wx">

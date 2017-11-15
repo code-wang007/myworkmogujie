@@ -21,7 +21,7 @@ header{
     }
     .topcon{
         position: relative;
-        width:414px;
+        //width:414px;
         height:31px;
         float: right;
         
@@ -35,6 +35,22 @@ header{
                 float: left;
                 padding:0 16px;
                 border-right:solid 1px #959595;
+                .gou{
+                    .carShowTitle{
+                        display: none;
+                        border:none;
+                        i{
+                            color:red;
+                            padding:0 3px;
+                            border:none;
+                        } 
+                    }
+                    .icon-gouwuche1{
+                        color:red;
+                        font-size: 16px;
+                        margin-right:5px;
+                    }
+                }
                 &:last-child{
                     border:none;
                     padding-right:0;
@@ -47,6 +63,7 @@ header{
                     cursor: pointer;
                 }
                 ul{
+                    z-index: 20;
                     display: none;
                     position: absolute;
                     top:-10px;

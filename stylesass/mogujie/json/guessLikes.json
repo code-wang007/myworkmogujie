@@ -1,5 +1,5 @@
 {
-	"18gdt3c":[{
+	"0":[{
 		"rgImg":{
 			"rg1":"http://s3.mogucdn.com/mlcdn/c45406/171005_2aa46clfel0141l438bla81ck5i5h_640x960.jpg_220x330.jpg",
 			"rg2":"http://s3.mogucdn.com/p2/161002/112208560_5dhe3l6f27c67fge1l17kdhg196ha_640x960.png_220x330.jpg",
@@ -14,15 +14,27 @@
 			"img4":"http://s3.mogucdn.com/mlcdn/c45406/170714_4bg7d4bf8d3ikj55k58469j6b7kea_640x960.jpg_468x468.jpg",
 			"img5":"http://s3.mogucdn.com/mlcdn/c45406/170714_2h3ieh6jalfdkag8008hj07e1c6gb_640x960.jpg_468x468.jpg"
 		},
+		"clImg":{
+			"climg1":"黑色",
+			"climg2":"蓝色",
+			"climg3":"黑灰",
+			"climg4":"白色",
+			"climg5":"黄色"
+		},
+		"size":{
+			"L":"L",
+			"S":"S",
+			"M":"M"
+		},
 		"title":"秋季韩版潮流男士毛衣休闲纯色圆领针织衫男装修身套头打底毛线衣",
 		"sale":"2260",
 		"appraise":"26",
-		"price":"￥49.9",
+		"price":"49.9",
 		"orgPrice":"￥84.29",
 		"coll":"301",
 		"has":"2197"
 	}],
-	"1k7znxg":[{
+	"1":[{
 		"rgImg":{
 			"rg1":"http://s3.mogucdn.com/p2/170218/63042661_7ld72ee78g60i25be4eecgfckbgda_640x961.jpg_220x330.jpg",
 			"rg2":"http://s3.mogucdn.com/p2/161019/63042661_141hj0a2hgg4h6labh4307dl21ld6_640x960.jpg_220x330.jpg",
@@ -37,6 +49,18 @@
 			"img4":"http://s3.mogucdn.com/mlcdn/c45406/170714_4bg7d4bf8d3ikj55k58469j6b7kea_640x960.jpg_468x468.jpg",
 			"img5":"http://s3.mogucdn.com/p2/170301/63042661_1cbc4e03bl3fcic2474lk5dfg2378_640x960.jpg_100x100.jpg"
 		},
+		"clImg":{
+			"climg1":"黑色",
+			"climg2":"蓝色",
+			"climg3":"黑灰",
+			"climg4":"白色",
+			"climg5":"黄色"
+		},
+		"size":{
+			"L":"L",
+			"S":"S",
+			"M":"M"
+		},
 		"title":"外穿打底裤女2017新款韩版百搭弹力修身小脚裤休闲长裤潮学生",
 		"sale":"2914",
 		"appraise":"503",
@@ -44,5 +68,181 @@
 		"orgPrice":"42.58",
 		"coll":"7390",
 		"has":"740"
-	}]	
+	}],
+	
+	"2":[{
+		"rgImg":{
+			"rg1":"http://s3.mogucdn.com/p2/170218/63042661_7ld72ee78g60i25be4eecgfckbgda_640x961.jpg_220x330.jpg",
+			"rg2":"http://s3.mogucdn.com/p2/161019/63042661_141hj0a2hgg4h6labh4307dl21ld6_640x960.jpg_220x330.jpg",
+			"rg3":"http://s3.mogucdn.com/p2/170301/63042661_3h4jj21j8dbgkbkd5gl7a8ke9d3ik_640x960.jpg_220x330.jpg"
+		},
+		"bgImg":"http://s3.mogucdn.com/mlcdn/c45406/171018_6jbl2i4ca4cbck0k2cjl23h51h8k7_640x960.jpg_468x468.jpg",
+		"image":"http://s3.mogucdn.com/p2/170301/63042661_4ag8fa68aedag188j410d87000a4g_640x961.jpg_100x100.jpg",
+		"img":{
+			"img1":"http://s3.mogucdn.com/mlcdn/c45406/171018_6jbl2i4ca4cbck0k2cjl23h51h8k7_640x960.jpg_468x468.jpg",
+			"img2":"http://s3.mogucdn.com/p2/161221/57278793_4il9e8d143i0bcajdlbb6bcij7agh_640x960.jpg_100x100.jpg",
+			"img3":"http://s3.mogucdn.com/p2/170301/63042661_79lbhcbadeaj4412khk9eh895d9b1_640x960.jpg_100x100.jpg",
+			"img4":"http://s3.mogucdn.com/mlcdn/c45406/170714_4bg7d4bf8d3ikj55k58469j6b7kea_640x960.jpg_468x468.jpg",
+			"img5":"http://s3.mogucdn.com/p2/170301/63042661_1cbc4e03bl3fcic2474lk5dfg2378_640x960.jpg_100x100.jpg"
+		},
+		"clImg":{
+			"climg1":"黑色",
+			"climg2":"蓝色",
+			"climg3":"黑灰",
+			"climg4":"白色",
+			"climg5":"黄色"
+		},
+		"size":{
+			"L":"L",
+			"S":"S",
+			"M":"M"
+		},
+		"title":"ULA韩版学院风字母刺绣假两件丝绒加厚卫衣女连帽宽松显瘦上衣",
+		"sale":"2914",
+		"appraise":"503",
+		"price":"73.83",
+		"orgPrice":"42.58",
+		"coll":"7390",
+		"has":"740"
+	}],	
+	"3":[{
+		"rgImg":{
+			"rg1":"http://s3.mogucdn.com/p2/170218/63042661_7ld72ee78g60i25be4eecgfckbgda_640x961.jpg_220x330.jpg",
+			"rg2":"http://s3.mogucdn.com/p2/161019/63042661_141hj0a2hgg4h6labh4307dl21ld6_640x960.jpg_220x330.jpg",
+			"rg3":"http://s3.mogucdn.com/p2/170301/63042661_3h4jj21j8dbgkbkd5gl7a8ke9d3ik_640x960.jpg_220x330.jpg"
+		},
+		"bgImg":"http://s3.mogucdn.com/mlcdn/c45406/171026_5ah72dhd8b84095676dj4eidgc469_640x960.jpg_468x468.jpg",
+		"image":"http://s3.mogucdn.com/p2/170301/63042661_4ag8fa68aedag188j410d87000a4g_640x961.jpg_100x100.jpg",
+		"img":{
+			"img1":"http://s3.mogucdn.com/mlcdn/c45406/171026_5ah72dhd8b84095676dj4eidgc469_640x960.jpg_468x468.jpg",
+			"img2":"http://s11.mogucdn.com/p2/161212/115935648_002l402g0di46ij9gfjcc7a0gah6k_640x960.jpg_100x100.jpg",
+			"img3":"http://s3.mogucdn.com/p2/170301/63042661_79lbhcbadeaj4412khk9eh895d9b1_640x960.jpg_100x100.jpg",
+			"img4":"http://s3.mogucdn.com/mlcdn/c45406/170714_4bg7d4bf8d3ikj55k58469j6b7kea_640x960.jpg_468x468.jpg",
+			"img5":"http://s3.mogucdn.com/p2/170301/63042661_1cbc4e03bl3fcic2474lk5dfg2378_640x960.jpg_100x100.jpg"
+		},
+		"clImg":{
+			"climg1":"黑色",
+			"climg2":"蓝色",
+			"climg3":"黑灰",
+			"climg4":"白色",
+			"climg5":"黄色"
+		},
+		"size":{
+			"L":"L",
+			"S":"S",
+			"M":"M"
+		},
+		"title":"秋冬外穿长袖针织女毛衣中长款条纹打底上衣服学生衬衫马甲两件套",
+		"sale":"2914",
+		"appraise":"503",
+		"price":"64.90",
+		"orgPrice":"42.58",
+		"coll":"7390",
+		"has":"740"
+	}],
+	"4":[{
+		"rgImg":{
+			"rg1":"http://s3.mogucdn.com/p2/170218/63042661_7ld72ee78g60i25be4eecgfckbgda_640x961.jpg_220x330.jpg",
+			"rg2":"http://s3.mogucdn.com/p2/161019/63042661_141hj0a2hgg4h6labh4307dl21ld6_640x960.jpg_220x330.jpg",
+			"rg3":"http://s3.mogucdn.com/p2/170301/63042661_3h4jj21j8dbgkbkd5gl7a8ke9d3ik_640x960.jpg_220x330.jpg"
+		},
+		"bgImg":"http://s3.mogucdn.com/mlcdn/c45406/171025_2l1f99ach6lh691b3fg0ejkj04289_640x960.jpg_468x468.jpg",
+		"image":"http://s3.mogucdn.com/p2/170301/63042661_4ag8fa68aedag188j410d87000a4g_640x961.jpg_100x100.jpg",
+		"img":{
+			"img1":"http://s3.mogucdn.com/p2/170301/63042661_4ag8fa68aedag188j410d87000a4g_640x961.jpg_100x100.jpg",
+			"img2":"http://s3.mogucdn.com/p2/161212/115935648_6ca4h1j70cj42le80k26fl5574icl_640x960.jpg_100x100.jpg",
+			"img3":"http://s3.mogucdn.com/p2/170301/63042661_79lbhcbadeaj4412khk9eh895d9b1_640x960.jpg_100x100.jpg",
+			"img4":"http://s3.mogucdn.com/mlcdn/c45406/170714_4bg7d4bf8d3ikj55k58469j6b7kea_640x960.jpg_468x468.jpg",
+			"img5":"http://s3.mogucdn.com/p2/170301/63042661_1cbc4e03bl3fcic2474lk5dfg2378_640x960.jpg_100x100.jpg"
+		},
+		"clImg":{
+			"climg1":"黑色",
+			"climg2":"蓝色",
+			"climg3":"黑灰",
+			"climg4":"白色",
+			"climg5":"黄色"
+		},
+		"size":{
+			"L":"L",
+			"S":"S",
+			"M":"M"
+		},
+		"title":"外穿打底裤女2017新款韩版百搭弹力修身小脚裤休闲长裤潮学生",
+		"sale":"2914",
+		"appraise":"503",
+		"price":"88",
+		"orgPrice":"42.58",
+		"coll":"7390",
+		"has":"740"
+	}],
+	"5":[{
+		"rgImg":{
+			"rg1":"http://s3.mogucdn.com/p2/170218/63042661_7ld72ee78g60i25be4eecgfckbgda_640x961.jpg_220x330.jpg",
+			"rg2":"http://s3.mogucdn.com/p2/161019/63042661_141hj0a2hgg4h6labh4307dl21ld6_640x960.jpg_220x330.jpg",
+			"rg3":"http://s3.mogucdn.com/p2/170301/63042661_3h4jj21j8dbgkbkd5gl7a8ke9d3ik_640x960.jpg_220x330.jpg"
+		},
+		"bgImg":"http://s3.mogucdn.com/mlcdn/c45406/171013_8bdh461g49ekf9a3dl15kbg2bg3lj_640x960.jpg_468x468.jpg",
+		"image":"http://s3.mogucdn.com/p2/170301/63042661_4ag8fa68aedag188j410d87000a4g_640x961.jpg_100x100.jpg",
+		"img":{
+			"img1":"http://s3.mogucdn.com/mlcdn/c45406/171013_8bdh461g49ekf9a3dl15kbg2bg3lj_640x960.jpg_468x468.jpg",
+			"img2": "http://s3.mogucdn.com/mlcdn/c45406/171020_2a23g4if2cjiek08ji20fllf40i63_640x873.jpg_100x100.jpg",
+			"img3":"http://s3.mogucdn.com/p2/170301/63042661_79lbhcbadeaj4412khk9eh895d9b1_640x960.jpg_100x100.jpg",
+			"img4":"http://s3.mogucdn.com/mlcdn/c45406/170714_4bg7d4bf8d3ikj55k58469j6b7kea_640x960.jpg_468x468.jpg",
+			"img5":"http://s3.mogucdn.com/p2/170301/63042661_1cbc4e03bl3fcic2474lk5dfg2378_640x960.jpg_100x100.jpg"
+		},
+		"clImg":{
+			"climg1":"黑色",
+			"climg2":"蓝色",
+			"climg3":"黑灰",
+			"climg4":"白色",
+			"climg5":"黄色"
+		},
+		"size":{
+			"L":"L",
+			"S":"S",
+			"M":"M"
+		},
+		"title":"外穿打底裤女2017新款韩版百搭弹力修身小脚裤休闲长裤潮学生",
+		"sale":"2914",
+		"appraise":"503",
+		"price":"99.00",
+		"orgPrice":"42.58",
+		"coll":"7390",
+		"has":"740"
+	}],	
+	"6":[{
+		"rgImg":{
+			"rg1":"http://s3.mogucdn.com/p2/170218/63042661_7ld72ee78g60i25be4eecgfckbgda_640x961.jpg_220x330.jpg",
+			"rg2":"http://s3.mogucdn.com/p2/161019/63042661_141hj0a2hgg4h6labh4307dl21ld6_640x960.jpg_220x330.jpg",
+			"rg3":"http://s3.mogucdn.com/p2/170301/63042661_3h4jj21j8dbgkbkd5gl7a8ke9d3ik_640x960.jpg_220x330.jpg"
+		},
+		"bgImg":"http://s17.mogucdn.com/b7/pic/160228/11j811_ie3wkzjthaztqzdggyzdambqgayde_1920x150.jpg",
+		"image":"http://s3.mogucdn.com/p2/170301/63042661_4ag8fa68aedag188j410d87000a4g_640x961.jpg_100x100.jpg",
+		"img":{
+			"img1":"http://s3.mogucdn.com/p2/170301/63042661_4ag8fa68aedag188j410d87000a4g_640x961.jpg_100x100.jpg",
+			"img2":"http://s3.mogucdn.com/mlcdn/c45406/171021_331950i21941l9h8bla5j9796g7k5_640x846.jpg_100x100.jpg",
+			"img3":"http://s3.mogucdn.com/p2/170301/63042661_79lbhcbadeaj4412khk9eh895d9b1_640x960.jpg_100x100.jpg",
+			"img4":"http://s3.mogucdn.com/mlcdn/c45406/170714_4bg7d4bf8d3ikj55k58469j6b7kea_640x960.jpg_468x468.jpg",
+			"img5":"http://s3.mogucdn.com/p2/170301/63042661_1cbc4e03bl3fcic2474lk5dfg2378_640x960.jpg_100x100.jpg"
+		},
+		"clImg":{
+			"climg1":"黑色",
+			"climg2":"蓝色",
+			"climg3":"黑灰",
+			"climg4":"白色",
+			"climg5":"黄色"
+		},
+		"size":{
+			"L":"L",
+			"S":"S",
+			"M":"M"
+		},
+		"title":"外穿打底裤女2017新款韩版百搭弹力修身小脚裤休闲长裤潮学生",
+		"sale":"2914",
+		"appraise":"503",
+		"price":"72",
+		"orgPrice":"42.58",
+		"coll":"7390",
+		"has":"740"
+	}]		
 }

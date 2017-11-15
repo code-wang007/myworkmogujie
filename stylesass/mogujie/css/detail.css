@@ -1,6 +1,40 @@
 body {
   background: #fff; }
 
+#pleaseregister {
+  display: none;
+  z-index: 100;
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.7);
+  border: solid 1px #ccc;
+  font-size: 18px;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -150px; }
+  #pleaseregister a {
+    position: absolute;
+    left: 40px;
+    top: 120px; }
+    #pleaseregister a:hover {
+      text-decoration: underline;
+      color: red; }
+  #pleaseregister .close {
+    display: block;
+    z-index: 100;
+    font-size: 16px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    color: #fff; }
+
 #detailSearchBar {
   width: 100%;
   height: 70px;
@@ -278,6 +312,8 @@ body {
           #messageDetail .mDlf .mDlfContent .WearColor dd ol span {
             width: 20px;
             height: 20px; }
+          #messageDetail .mDlf .mDlfContent .WearColor dd ol .col {
+            display: none; }
         #messageDetail .mDlf .mDlfContent .WearColor dd .icon-duihao {
           display: block;
           position: absolute;
@@ -343,7 +379,8 @@ body {
           color: #999; }
       #messageDetail .mDlf .mDlfContent .addCart {
         width: 537px;
-        height: 75px; }
+        height: 75px;
+        position: relative; }
         #messageDetail .mDlf .mDlfContent .addCart a {
           display: inline-block;
           width: 200px;
@@ -359,6 +396,18 @@ body {
           #messageDetail .mDlf .mDlfContent .addCart a:nth-child(2) {
             color: #333;
             border: 1px solid #ddd; }
+        #messageDetail .mDlf .mDlfContent .addCart p {
+          z-index: 100;
+          position: absolute;
+          display: none;
+          width: 200px;
+          height: 30px;
+          color: red;
+          top: -35px;
+          left: 269px;
+          line-height: 30px;
+          text-align: center;
+          font-size: 16px; }
       #messageDetail .mDlf .mDlfContent .detailShare .wx {
         font-size: 14px; }
         #messageDetail .mDlf .mDlfContent .detailShare .wx .de_collect {

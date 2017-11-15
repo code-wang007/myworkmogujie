@@ -1,4 +1,5 @@
 $(function(){
+
 	$(".regWord .normal").on("click",function(){
 		$(this).css({"border-bottom":"solid 2px red"}).siblings().css({"border-bottom":"none"});
 		console.log($(".regWord .diff"));
@@ -54,7 +55,18 @@ $(function(){
 								oremb.style.display = "none";
 								oremb.innerHTML = "";
 								ouser.blur();
-								location.href = "home.html";
+								var str = location.search;
+								
+								//var Id = arr[1].slice(3,10);
+								if(str != ""){
+									var arr = str.split("=");
+									var Id = arr[1].slice(3,11);
+									console.log(Id);
+									//var $index = arr[1].charAt(10);
+									location.href = "details.html?='"+Id+"'";
+								}else{
+									location.href = "home.html?=true";
+								}
 								break;
 							}else{
 								

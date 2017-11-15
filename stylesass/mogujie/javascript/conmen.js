@@ -59,7 +59,7 @@ function goodsList(data) {
 		var $data = data.result.wall.docs;
 		//var $border = $("<div class='bord'></div>");
 		var $hide = $("<div class='hide'>找相似</div>");
-		var $div = $("<div class='goodsList'><a href=''><img src='' class='bigimgs'/><img src='' class='toplogo'/><div class='goodsMessage'><p class='word'></p><img src='' class='liangpin'/><p class='price'><span></span><span></span><span><img src='' alt=''></span><span></span></p></div></a></div>");
+		var $div = $("<div class='goodsList'><a href='javascript:;'><img src='' class='bigimgs'/><img src='' class='toplogo'/><div class='goodsMessage'><p class='word'></p><img src='' class='liangpin'/><p class='price'><span></span><span></span><span><img src='' alt=''></span><span></span></p></div></a></div>");
 
 		$div.children("a").children(".bigimgs").attr("src", $data[index].img);
 		if($data[index]["lefttop_taglist"].length > 0) {
